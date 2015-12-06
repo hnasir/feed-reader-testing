@@ -9,6 +9,9 @@
  * to ensure they don't run until the DOM is ready.
  */
 $(function() {
+    // change global Jasmine timout interval for async tests to 10s 
+    // to prevent tests from failing due to slow server response
+    jasmine.DEFAULT_TIMEOUT_INTERVAL = 10000;
     /* This is our first test suite - a test suite just contains
     * a related set of tests. This suite is all about the RSS
     * feeds definitions, the allFeeds variable in our application.

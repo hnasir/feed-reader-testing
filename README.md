@@ -18,7 +18,7 @@ Contains all required Fonts used for certain text and icons
 
 ######jasmine/
 
-Contains Jasmine testing framework (v2.1.2) library files
+Contains Jasmine testing framework (v2.1.2) library files and testing specifications for project
 
 ######js/
 
